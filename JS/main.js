@@ -34,11 +34,11 @@ function test2(){
 		alert("14 is a good age")
 
 }
-	else if(age>14{
+	else if(age>14){
 		alert("your're older than I thought")
 
 }
-else{
+	else{
 	alert("Not a valid age")
 
 }
