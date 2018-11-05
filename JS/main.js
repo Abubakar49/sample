@@ -8,7 +8,6 @@ if(myColour=="red"){
 console.log("ha. this guy likes red");
 
 }
-else if(){
     else if(myColour=="green"){
  console.log("ah, green this guys alright");
     }
