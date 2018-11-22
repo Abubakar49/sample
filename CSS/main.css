@@ -8,14 +8,16 @@ h1 {
 p{
 
 	color:green;
-	font-size:50;
+	font-size: 50;
 
 }
 
+body {background-color: powderblue;}
+
+{
 
 
-
-
-
-
-
+{}
+.guesses {
+  display: none;
+}

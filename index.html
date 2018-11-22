@@ -55,7 +55,25 @@ alert("hello World")
 
 
 
-<p id="borderimg">MY FIRST PAGE;</p>
+
+<fieldset>
+ <legend>Guess</legend>
+ <label for="guess">Your Guess:</label>
+ <input type="text" id="guess" value="523" />
+ <input type="button" onclick="yourGuess()" value="submit" /><br />
+ <input type="button" onclick="generateNumberToGuess(true)" value="New Game" /><br />
+ <div id="cheatShow" style="display: none;">
+  <input id="numberToGuess" type="text" />
+  <label for="numberToGuess">Number to guess</label>
+ </div>
+</fieldset>
+<fieldset id="guesses" class="guesses">
+ <legend> Result </legend>
+ <textarea id="output" name="output" rows="4" style="width: 30%;"></textarea>
+</fieldset>
+
+
+
 
 
 
